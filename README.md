@@ -17,14 +17,14 @@ Means to download data or bring it on board
 - Data vendors provide data using APIs or FTP
 - Data formats can be csv, json or compressed or uncompressed
 
-API: https://developer.spotify.com/console/get-recently-played/
+API: https://developer.spotify.com/console/get-recently-played/  
 Reference: [Web API Reference | Spotify for Developers](https://developer.spotify.com/documentation/web-api/reference/#endpoint-get-recently-played)
 
 Spotify data is in json
 
-Step 1. Get the OAuth token from spotify
-Step 2. Download the data using python with the help of the spotify API
-Step 3. Convert the data into a tabular format
+Step 1. Get the OAuth token from spotify  
+Step 2. Download the data using python with the help of the spotify API  
+Step 3. Convert the data into a tabular format  
 
 ### Transform
 This is like a validation stage, this is where you fix problems with the data
@@ -50,7 +50,7 @@ Database location types
 - On-premise
 - Cloud
 
-**ORM: Object Relational Mappers**
+**ORM: Object Relational Mappers**  
 Imagine you are writing code in python, and you want to use data on you database. ORM allows you to query data from python without using SQL. An example is SQLAlchemy.
 
 Interact with your database(to see your data in it) using **DBeaver**.
