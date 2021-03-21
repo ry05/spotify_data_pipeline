@@ -1,0 +1,5 @@
+# vs code environment
+.vscode
+
+# database
+recent_tracks.sqlite
